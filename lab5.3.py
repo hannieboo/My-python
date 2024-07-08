@@ -22,7 +22,7 @@ homework = get_valid_score("จำนวนคะแนนเก็บ : ", 20)
 mid = get_valid_score("จำนวนคะแนนสอบกลางภาค : ", 40)
 final = get_valid_score("จำนวนคะแนนสอบปลายภาค : ", 40)
 
-total_score = sumcal(homework, mid, final)
+total_score = sum_cal(homework, mid, final)
 result = sort(total_score)
 
 print(f"จำนวนคะแนนรวม: {total_score}")
